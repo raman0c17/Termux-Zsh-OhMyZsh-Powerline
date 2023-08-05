@@ -7,6 +7,29 @@ Automates Zsh, Oh My Zsh, Powerline setup in Termux. Sleek, powerful, and effici
 
 This script is a fun project that automates the setup of a powerful and stylish terminal environment in Termux on Android devices. It installs the Zsh shell, Oh My Zsh framework, Powerline fonts, and the "agnoster" theme, enhancing the terminal experience with efficiency and aesthetics.
 
+To run the script "zsh-termux-setup.sh" from the GitHub repository [Termux-Zsh-OhMyZsh-Powerline](https://github.com/raman0c17/Termux-Zsh-OhMyZsh-Powerline.git), follow these steps:
+
+1. Clone the Repository:
+   ```
+   git clone https://github.com/raman0c17/Termux-Zsh-OhMyZsh-Powerline.git
+   ```
+
+2. Change Directory:
+   ```
+   cd Termux-Zsh-OhMyZsh-Powerline
+   ```
+
+3. Make the Script Executable (if needed):
+   ```
+   chmod +x zsh-termux-setup.sh
+   ```
+
+4. Run the Script:
+   ```
+   ./zsh-termux-setup.sh
+   ```
+
+The script will now automatically execute and set up the powerful and customized terminal environment with Zsh, Oh My Zsh, Powerline fonts, and the "agnoster" theme in your Termux on Android. Enjoy the enhanced terminal experience!
 ## How It Works
 
 1. The script begins by installing essential packages like `curl`, `zsh`, and `git` using Termux's package manager.
